@@ -63,6 +63,8 @@ So I came up with my own solution: it allows to display a defined amount of **re
     {{ relatedPosts[i] }}
 {% endfor %}
 ```
+A visual example: 
+![jekyll-related-posts-example](https://raw.githubusercontent.com/wu-ming/jekyll-related-posts/master/related_posts_example.jpg)
 
 ### how it works
 
