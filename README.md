@@ -4,7 +4,7 @@ Jekyll can show up to ten related posts using the variable ```site.related_posts
 
 ### why
 
-Several solutions exists, but for various reasons they didn't work for me. The best one I could find is [this one](https://blog.webjeda.com/jekyll-related-posts/), which however requires to define a minimum number of tags. This presents a limitation: if you set the number too high you might not see enough posts, if you set it too low you might see posts related only by a few tags, thus missing better matching posts.
+Several solutions exists, but they are in form of plugins (which also won't work on Github Pages) or for various reasons did't serve my purpose. The best one I could find is [this one](https://blog.webjeda.com/jekyll-related-posts/), which however requires to define a minimum number of tags. This presents a limitation: if you set the number too high you might not see enough posts, if you set it too low you might see posts related only by a few tags, thus missing better matching posts.
 
 So I came up with my own solution: it allows to display a defined amount of **related posts**, and sort them by the number of tags they share with the **current post** (for the sake of clarity, from now on we'll call it **current page**). Let's see
 
@@ -64,7 +64,7 @@ So I came up with my own solution: it allows to display a defined amount of **re
 {% endfor %}
 ```
 A visual example: 
-![jekyll-related-posts-example](https://raw.githubusercontent.com/wu-ming/jekyll-related-posts/master/related_posts_example.jpg)
+![jekyll-related-posts-example](https://raw.githubusercontent.com/wu-ming/jekyll-related-posts/master/related_posts_example.png)
 
 ### how it works
 
