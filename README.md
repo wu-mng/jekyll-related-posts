@@ -64,7 +64,7 @@ So I came up with my own solution: it allows to display a defined amount of **re
 {% endfor %}
 ```
 A visual example: 
-![jekyll-related-posts-example](https://gitlab.com/wu-mng/jekyll-related-posts/-/blob/e4906d2c2045c93b673dcfe513737bfebbf3339c/related_posts_example.png)
+![jekyll-related-posts-example](https://raw.githubusercontent.com/wu-mng/jekyll-related-posts/master/related_posts_example.png)
 
 ### how it works
 
